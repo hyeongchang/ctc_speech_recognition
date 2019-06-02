@@ -32,7 +32,7 @@ class Audio_reader(object):
             AudioList = [read_audio_from(path=path, sample_rate=sample_rate) for path in FilePathList]
             # hyeongchang : commit_2
             # hyeongchang : ctc loss에 대해 tensorflow doc 참고하세요.
-
+            # hyeongchang : emergency3 test
 
 _ = Audio_reader(audio_dir="wav48", sample_rate=8000)
 
